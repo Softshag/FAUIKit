@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FAUIKit_Example', :exclusive => true do
+  pod "FAUIKit", :path => "../"
+end
+
+target 'FAUIKit_Tests', :exclusive => true do
+  pod "FAUIKit", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
