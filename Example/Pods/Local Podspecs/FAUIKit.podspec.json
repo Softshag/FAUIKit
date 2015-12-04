@@ -1,0 +1,25 @@
+{
+  "name": "FAUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of FAUIKit.",
+  "description": "                       An optional longer description of FAUIKit\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FAUIKit",
+  "license": "MIT",
+  "authors": {
+    "Softshag & Me": "admin@softshag.dk"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FAUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "FAUIKit": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
